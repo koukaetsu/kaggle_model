@@ -26,7 +26,7 @@ I approached the problem in two stages:
   Final model using **XGBoost + Bayesian Optimization** (via `BayesSearchCV` from `skopt`), with:
   - Categorical feature encoding via `TargetEncoder`
   - Log-transformation of SalePrice for normalization
-  - No spline or derivative method applied here — only probabilistic search
+
 
 ---
 
