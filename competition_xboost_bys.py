@@ -43,7 +43,7 @@ X= encoder.fit_transform(X, y)
 #lasso = LassoCV()
 #lasso.fit(X, y)
 
-# 只保留 Lasso 认为重要的特征
+
 #data_features = X.columns[lasso.coef_ != 0]
 #X = X[data_features]
 
